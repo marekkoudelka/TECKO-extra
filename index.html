@@ -1,55 +1,199 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TĚČKO Extra — 07/2026 · Newsletter Skupiny TTC</title>
-  <meta name="description" content="TĚČKO Extra 07/2026 — newsletter pro zaměstnance Skupiny TTC." />
-  <style>
-    :root { color-scheme: light; }
-    html, body { margin: 0; padding: 0; }
-    body {
-      background: #d9dde1;
-      font-family: Arial, Helvetica, sans-serif;
-      -webkit-text-size-adjust: 100%;
-    }
-    .paper {
-      max-width: 760px;
-      margin: 24px auto;
-      background: #ffffff;
-      box-shadow: 0 6px 28px rgba(0,0,0,0.18);
-      overflow: hidden;
-    }
-    .paper img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border: 0;
-    }
-    .note {
-      max-width: 760px;
-      margin: 0 auto 30px auto;
-      padding: 0 6px;
-      color: #5a6268;
-      font-size: 13px;
-      line-height: 19px;
-      text-align: center;
-    }
-    @media (max-width: 800px) {
-      .paper { margin: 0 auto; box-shadow: none; }
-    }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TĚČKO Extra — 07/2026 · Newsletter Skupiny TTC</title>
+<meta name="description" content="TĚČKO Extra 07/2026 — newsletter pro zaměstnance Skupiny TTC." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --petrol:#215C6E; --gray:#5f6a70; --link:#0F7C8A;
+    --pad:34px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:#d9dde1;font-family:'Inter',Arial,Helvetica,sans-serif;color:var(--gray);-webkit-font-smoothing:antialiased;}
+  .paper{max-width:820px;margin:26px auto;background:#fff;box-shadow:0 8px 34px rgba(0,0,0,.18);overflow:hidden;}
+
+  /* MASTHEAD */
+  .masthead{padding:32px var(--pad) 0;}
+  .masthead img{display:block;width:100%;max-width:330px;height:auto;border:0;}
+  .masthead .meta{margin:16px 0 0;font-size:15px;color:var(--gray);}
+  .masthead .meta b{color:#F1882F;}
+
+  /* SECTION HEAD (S1, no band) */
+  .head1{padding:22px var(--pad) 0;}
+  .head1 .t{font-family:'Poppins';font-weight:700;font-size:30px;line-height:1.12;color:var(--petrol);}
+  .head1 .s{font-family:'Poppins';font-weight:400;font-size:25px;line-height:1.2;color:var(--petrol);margin-top:2px;}
+
+  /* COLOR BAND HEAD */
+  .band{padding:24px var(--pad);}
+  .band .t{font-family:'Poppins';font-weight:700;font-size:27px;line-height:1.15;color:#fff;}
+  .band .s{font-family:'Poppins';font-weight:400;font-size:23px;line-height:1.2;color:#fff;margin-top:2px;}
+
+  /* MEDIA */
+  .media{padding:18px var(--pad) 0;}
+  .media img{display:block;width:100%;height:auto;border:0;border-radius:12px;}
+  .pair{display:flex;gap:16px;padding:16px var(--pad) 0;}
+  .pair img{width:50%;height:auto;border:0;border-radius:12px;object-fit:cover;}
+  .phones{display:flex;gap:16px;justify-content:flex-start;padding:16px var(--pad) 0;}
+  .phones img{width:150px;max-width:42%;height:auto;border:0;border-radius:14px;}
+
+  /* BODY */
+  .body{padding:20px var(--pad) 34px;}
+  .lead{font-size:16px;line-height:1.5;color:var(--petrol);font-weight:700;margin:0 0 16px;}
+  .cols{display:flex;gap:30px;}
+  .col{flex:1;min-width:0;}
+  .cols p, .body>p:not(.lead){font-size:15px;line-height:1.55;margin:0 0 14px;}
+  .col p:last-child{margin-bottom:0;}
+  a{color:var(--link);font-weight:600;text-decoration:underline;}
+
+  /* FOOTER */
+  .foot{background:var(--petrol);color:#cfe0e4;padding:26px var(--pad);font-size:13px;line-height:1.6;}
+  .foot .brand{font-family:'Poppins';font-weight:700;color:#fff;font-size:18px;margin-bottom:4px;}
+  .foot a{color:#8fd6e0;}
+
+  /* RESPONSIVE */
+  @media (max-width:620px){
+    :root{--pad:20px;}
+    .paper{margin:0 auto;box-shadow:none;}
+    .cols{column-count:1;}
+    .head1 .t{font-size:25px;} .head1 .s{font-size:20px;}
+    .band .t{font-size:23px;} .band .s{font-size:19px;}
+    .cols{flex-direction:column;gap:0;}
+    .pair{flex-direction:column;} .pair img{width:100%;}
+  }
+</style>
 </head>
 <body>
-  <div class="paper">
-    <img src="images/page/p0.jpg" alt="TĚČKO Extra 07/2026 — část 1" width="1716" />
-    <img src="images/page/p1.jpg" alt="TĚČKO Extra 07/2026 — část 2" width="1716" loading="lazy" />
-    <img src="images/page/p2.jpg" alt="TĚČKO Extra 07/2026 — část 3" width="1716" loading="lazy" />
-    <img src="images/page/p3.jpg" alt="TĚČKO Extra 07/2026 — část 4" width="1716" loading="lazy" />
-    <img src="images/page/p4.jpg" alt="TĚČKO Extra 07/2026 — část 5" width="1716" loading="lazy" />
-    <img src="images/page/p5.jpg" alt="TĚČKO Extra 07/2026 — část 6" width="1716" loading="lazy" />
-    <img src="images/page/p6.jpg" alt="TĚČKO Extra 07/2026 — část 7" width="1716" loading="lazy" />
+<div class="paper">
+
+  <!-- MASTHEAD -->
+  <div class="masthead">
+    <img src="images/ttc-logo.png" alt="TĚČKO Extra" />
+    <p class="meta"><b>07/2026</b>&nbsp;&nbsp;·&nbsp;&nbsp;Newsletter pro zaměstnance Skupiny TTC</p>
   </div>
-  <p class="note">Newsletter Skupiny TTC · 07/2026</p>
+
+  <!-- 1 · DC2 -->
+  <div class="head1">
+    <div class="t">TTC DC2 roste</div>
+    <div class="s">Nové sály a přechod na lithiové baterie</div>
+  </div>
+  <div class="media"><img src="images/ttc-dc2.jpg" alt="Technici v datovém sále TTC DC2" /></div>
+  <div class="body">
+    <p class="lead">TTC TELEPORT pokračuje v rozvoji svého datového centra TTC DC2. V těchto týdnech odstartovala výstavba tří nových datových sálů a zároveň dokončuje modernizaci části energetické infrastruktury v podobě přechodu na lithiové záložní baterie.</p>
+    <div class="cols">
+      <div class="col"><p>Nové datové sály vznikají v reakci na rostoucí poptávku stávajících i nových klientů z oblasti finančních služeb, digitálních služeb a online prodeje nebo strategických investic. Všechny nové kapacity budou fungovat v režimu vysokého SLA standardu, který TTC DC2 dlouhodobě poskytuje. Do provozu budou nové datové sály uváděny postupně v průběhu let 2026 a 2027. Rozšíření přinese navýšení kapacity o desítky racků i stovky kW výkonu.</p></div>
+      <div class="col"><p>Součástí rozvoje TTC DC2 je také modernizace energetického zázemí. TTC TELEPORT aktuálně dokončuje výměnu technologie záložních baterií pro II. energomodul, konkrétně přechod z původních olověných akumulátorů na moderní lithiové baterie. Nová technologie přinese lepší monitoring, vyšší kapacitu zálohování i efektivnější provoz. Přechod zároveň navazuje na několikaleté zkušenosti z datového centra TTC DC1, kde TTC TELEPORT lithiové baterie úspěšně testuje a využívá již přibližně tři roky. Do budoucna společnost počítá s postupnou obměnou dalších olověných baterií za modernější technologie napříč svou infrastrukturou.</p></div>
+    </div>
+  </div>
+
+  <!-- 2 · Malešice -->
+  <div class="band" style="background:#41B8D1;"><div class="t">Nový Metropolitní plán otevírá další kapitolu Malešic</div></div>
+  <div class="media"><img src="images/ttc-malesice.jpg" alt="Vizualizace Technologického parku Malešice" /></div>
+  <div class="body">
+    <p class="lead">Pražští zastupitelé na konci května schválili nový Metropolitní plán, který od 1. září nahradí dosavadní územní plán z roku 1999 a určí podobu rozvoje hlavního města na další desítky let. Pro TTC je to důležitý milník také proto, že potvrzuje další rozvoj Technologického parku Malešice.</p>
+    <div class="cols">
+      <div class="col"><p>Proměna bývalého průmyslového areálu v moderní centrum technologií, inovací a podnikání je výsledkem několikaleté práce a spolupráce Skupiny TTC a zejména kolegů z TTC REAL ESTATE s hlavním městem Prahou, Institutem plánování a rozvoje i dalšími partnery. Nový Metropolitní plán nyní vytváří jasný rámec pro pokračování této transformace.</p></div>
+      <div class="col"><p>Technologický park Malešice má ambici propojit technologické firmy, startupy, výzkumné organizace i talentované odborníky do jednoho živého ekosystému. Díky své strategické poloze a plánovanému rozvoji okolního území má příležitost se stát jedním z klíčových inovačních center metropole. Jeho vlajkovou lodí bude technologické centrum OXYMA, které se stane symbolem moderního rozvoje této části Prahy.</p></div>
+    </div>
+  </div>
+
+  <!-- 3 · Mycroft Mind -->
+  <div class="band" style="background:#F1882F;"><div class="t">Embedded AI komunita zavítala do Mycroft Mind</div></div>
+  <div class="media"><img src="images/ttc-mycroft.jpg" alt="Setkání Embedded AI Community v Mycroft Mind" /></div>
+  <div class="body">
+    <p class="lead">V brněnských prostorách Mycroft Mind se tentokrát sešla komunita nadšenců do embedded a edge AI. Čtvrté setkání Embedded AI Community, které pravidelně organizuje Yunex Traffic, přilákalo několik desítek vývojářů, technologických nadšenců i lidí z oboru.</p>
+    <div class="cols">
+      <div class="col"><p>Hlavním bodem programu byla prezentace Martina Třísky o projektu SkyEye – autonomním prediktoru výroby fotovoltaické energie běžícím přímo na embedded platformě s kamerou a senzory. Nechyběly ani ukázky systému v reálném provozu nebo pohled do zákulisí toho, jak podobné technologie vznikají. Program doplnil také lightning talk společnosti Bender Robotics zaměřený na vývoj a testování firmware. Velký zájem vzbudily i komentované prohlídky Mycroft Mind LABu.</p></div>
+      <div class="col"><p>Jan Remeš návštěvníkům ukázal demonstrátor inteligentní měřicí infrastruktury a technologii Topology Identification, která dokáže z dat elektroměrů rozpoznat skutečné uspořádání nízkonapěťové sítě. Paralelně probíhaly také menší prohlídky kanceláří a ukázky hardwaru. A protože podobné akce nejsou jen o technologiích, ale i o lidech, nechyběl networking, diskuze a neformální debaty, které se v kancelářích protáhly až do pozdních večerních hodin.</p></div>
+    </div>
+  </div>
+  <div class="pair"><img src="images/ttc-mycroft-a.jpg" alt="Ze setkání Embedded AI Community" /><img src="images/ttc-mycroft-b.jpg" alt="Prezentace v Mycroft Mind LABu" /></div>
+
+  <!-- 4 · Weby -->
+  <div class="band" style="background:#51BECC;"><div class="t">Weby našich firem a projektů dostávají nový kabát</div></div>
+  <div class="media"><img src="images/ttc-weby.jpg" alt="Nové weby firem Skupiny TTC" /></div>
+  <div class="body">
+    <p class="lead">Naše online prezentace firem a projektů napříč Skupinou TTC postupně modernizujeme tak, aby byly přehlednější, rychlejší a lépe odpovídaly tomu, co dnes děláme a kam směřujeme.</p>
+    <p>V nové podobě se tak představuje web <a href="https://ttc-marconi.com">TTC MARCONI</a>, aktualizovanou podobu svých stránek představil také <a href="https://ttc-teleport.cz">TTC TELEPORT</a> a <a href="https://brainconnect.cz">BRAIN CONNECT Prague</a>. Weby přinášejí svěžejší design, jednodušší orientaci i lepší představení našich technologií, služeb a projektů. A další budou postupně následovat.</p>
+  </div>
+
+  <!-- 5 · ANETE -->
+  <div class="band" style="background:#F4BA3F;"><div class="t">Od nemocnic přes lázně až ke studentům</div></div>
+  <div class="media"><img src="images/ttc-anete.jpg" alt="Stravovací provoz využívající systémy ANETE" /></div>
+  <div class="body">
+    <p class="lead">Začátek června přinesl ANETE dvě významné reference. Do ostrého provozu byly spuštěny systémy Dimenso KREDIT ve Fakultní nemocnici Ostrava a Fakultní nemocnici Brno. V obou případech zajišťují zaměstnanecké i pacientské stravování včetně skladového hospodářství a normování. Obě nemocnice patří mezi největší zdravotnická zařízení ve svých regionech a dohromady obsluhují přibližně 16 tisíc strávníků.</p>
+    <div class="cols">
+      <div class="col"><p>Pokračuje také projekt v Lázních Třeboň, kde byl letos spuštěn systém pro lázeňské stravování. Jde o vůbec první nasazení ANETE v lázeňském segmentu a zároveň první projekt, který vedle stravovacího systému zahrnuje i kompletní restaurační provoz. Systém dnes obsluhuje jedenáct provozů a premiéru si zde odbyl také nový Mobilní číšník.</p></div>
+      <div class="col"><p>Novinkou je i Dimenso Mobile, společný produkt ANETE a ApS Brno, který propojuje objednávání jídel s ubytovacími službami do jedné mobilní aplikace. Prvním zákazníkem se stala Vysoká škola báňská v Ostravě.</p></div>
+    </div>
+  </div>
+  <div class="phones"><img src="images/ttc-anete-phone1.jpg" alt="Mobilní aplikace Dimenso" /><img src="images/ttc-anete-phone2.jpg" alt="Mobilní aplikace Dimenso – jídelníček" /></div>
+
+  <!-- 6 · Železnice -->
+  <div class="band" style="background:#63719D;"><div class="t">Co hýbe železnicí?</div><div class="s">I to jsme řešili v Ostravě</div></div>
+  <div class="media"><img src="images/ttc-rail.jpg" alt="Expozice UniControls na Rail Business Days 2026" /></div>
+  <div class="body">
+    <p class="lead">Společnost TTC Controls se svou značkou UniControls se i letos zúčastnila mezinárodního veletrhu Rail Business Days 2026 v Ostravě, který patří mezi nejvýznamnější setkání odborníků z oblasti železniční dopravy ve střední Evropě. V areálu Trojhalí Karolina se sešlo téměř 140 vystavovatelů a tisíce návštěvníků z řad výrobců, provozovatelů i správců železniční infrastruktury.</p>
+    <div class="cols">
+      <div class="col"><p>Na našem stánku jsme představili vybraná zařízení a technologie pro moderní železniční dopravu. Veletrh byl zároveň příležitostí potkat se se zákazníky, partnery i kolegy z oboru, vyměnit si zkušenosti a podívat se, kam se železniční technologie zase o kus posunuly.</p></div>
+      <div class="col"><p>O naši expozici byl zájem i během Studentského dne. Budoucí technici a inženýři si mohli vystavené zařízení sami vyzkoušet a dozvědět se více o jeho fungování i praktickém využití. A protože se u stánku téměř nezastavili, prošlo zařízení i neplánovanou, ale úspěšnou zátěžovou zkouškou.</p></div>
+    </div>
+  </div>
+  <div class="pair"><img src="images/ttc-rail-a.jpg" alt="Kolegové na veletrhu Rail Business Days" /><img src="images/ttc-rail-b.jpg" alt="Vystavené zařízení UniControls" /></div>
+
+  <!-- 7 · Lipník -->
+  <div class="band" style="background:#215C6E;"><div class="t">Budoucnost kritické komunikace v Lipníku nad Bečvou</div></div>
+  <div class="media"><img src="images/ttc-lipnik.jpg" alt="TTC TELEKOMUNIKACE na Konferenci spojovacího vojska 2026" /></div>
+  <div class="body">
+    <p class="lead">Společnost TTC TELEKOMUNIKACE se začátkem června představila na Konferenci spojovacího vojska 2026, jedné z nejvýznamnějších domácích akcí zaměřených na komunikační technologie, kybernetickou bezpečnost a digitalizaci obrany. V Lipníku nad Bečvou se sešlo na 650 odborníků z armády, státní správy, akademické sféry i technologických firem.</p>
+    <div class="cols">
+      <div class="col"><p>Prezentovali jsme zde naše řešení pro moderní kritickou komunikaci – od stacionárních mikrovlnných spojů Ericsson přes nový standard mobilních kritických služeb MCX až po hlasový dispečerský systém KONOS. Konference byla zároveň příležitostí k řadě pracovních setkání se zástupci Armády ČR, NÚKIB, NAKIT, CETIN, T-Mobile i dalších partnerů z oboru.</p></div>
+      <div class="col"><p>Letošní ročník se nesl ve znamení digitální suverenity a moderních technologií pro obranu a bezpečnost. Symbolickým momentem celé akce bylo také otevření nového polygonu pro testování pozemních dronů brigádním generálem Petrem Šnajdárkem, náčelníkem spojovacího vojska Armády ČR.</p></div>
+    </div>
+  </div>
+  <div class="pair"><img src="images/ttc-lipnik-a.jpg" alt="Stánek TTC TELEKOMUNIKACE" /><img src="images/ttc-lipnik-b.jpg" alt="Ukázka techniky na konferenci" /></div>
+
+  <!-- 8 · AI -->
+  <div class="band" style="background:#51BECC;"><div class="t">Novinky z AI a digitalizace v TTC</div></div>
+  <div class="media"><img src="images/ttc-ai.jpg" alt="Novinky z oblasti AI a digitalizace ve Skupině TTC" /></div>
+  <div class="body">
+    <p class="lead">Od 1. července 2026 vstupuje v platnost nová <a href="https://ttccz.sharepoint.com/SitePages/Sm%C4%9Brnice.aspx">směrnice SOS 006</a>, která upřesňuje způsob používání AI v těch společnostech Skupiny TTC, které ke směrnici přistoupí.</p>
+    <div class="cols">
+      <div class="col"><p>Novinkou je také <a href="https://ttccz.sharepoint.com/SitePages/AI-validace.aspx">interaktivní dotazník pro ověření AI nástrojů</a>, který pomůže rychle zjistit, zda je konkrétní aplikace v souladu s naší <a href="https://ttccz.sharepoint.com/SitePages/AI-matice.aspx">Maticí použití AI</a>. Výsledky budou zároveň sloužit jako podklad pro schvalování nových nástrojů do firemního <a href="https://ttccz.sharepoint.com/SitePages/AI-white-list.aspx">white-listu</a>, o které se stará tým složený ze zástupců IT, bezpečnosti a práva. Do white-listu AI nástrojů jsme zařadili první schválené aplikace a postupně rozšiřujeme i nabídku centrálně pořizovaných licencí prostřednictvím IT.</p></div>
+      <div class="col"><p>Abychom si mohli navzájem předávat zkušenosti a tipy z praxe, vzniklo nové <a href="https://ttccz.sharepoint.com/SitePages/AI-forum.aspx">diskusní fórum AI</a>, kde se můžete zeptat na konkrétní nástroje, podělit se o zkušenosti nebo získat inspiraci od kolegů. Připravujeme také program podzimních AI workshopů. Pokud máte téma, které by vás zajímalo, nebo tip na oblast, kterou bychom měli otevřít, budeme rádi za vaše náměty.</p></div>
+    </div>
+  </div>
+
+  <!-- 9 · Napsali o nás -->
+  <div class="band" style="background:#F9B200;"><div class="t">Napsali o nás</div></div>
+  <div class="media"><img src="images/ttc-media.jpg" alt="TTC v médiích" /></div>
+  <div class="body">
+    <p class="lead">O TTC a našich firmách je v médiích slyšet stále častěji. Přinášíme výběr zajímavých článků a rozhovorů z poslední doby. A pokud vás zajímá, kde se o nás píše dál, navštivte novou <a href="https://ttccz.sharepoint.com/SitePages/TTC%20v%20m%C3%A9di%C3%ADch.aspx">sekci TTC v médiích</a> na intranetu Skupiny TTC.</p>
+    <div class="cols">
+      <div class="col">
+        <p><strong style="color:#3d454a;">Mycroft Mind</strong> zaujal projektem chytrého řízení nabíjení elektromobilů v Kataru. Psala o něm například <a href="https://www.lupa.cz/aktuality/brnenska-firma-bude-svou-umelou-inteligenci-resit-v-kataru-nabijeni-elektromobilu/">Lupa.cz</a> nebo <a href="https://www.newstream.cz/zpravy-z-firem/v-kataru-resi-dobijeni-elektromobilu-projekt-nese-ceskou-stopu">Newstream</a>.</p>
+        <p>Mediální pozornost vzbudila také <strong style="color:#3d454a;">akvizice administrativní budovy České spořitelny</strong>, díky které TTC dále posiluje své realitní portfolio. Více například v <a href="https://www.newstream.cz/reality/ttc-kupuje-velkou-kancelar-v-praze-portfolio-ji-narostlo-na-miliardy">článku Newstream</a>.</p>
+        <p>Newstream.cz publikoval <a href="https://www.newstream.cz/zpravy-z-firem/umela-inteligence-bude-ridit-opravy-vlaku-zpozdeni-zpusobena-technickymi-zavadami-se-mohou-stat-minulosti">článek o využití umělé inteligence pro prediktivní diagnostiku v železniční dopravě</a>. Jan Otýpka z TTC MARCONI v něm přibližuje, jak mohou data a AI pomoci předcházet technickým závadám vlaků.</p>
+      </div>
+      <div class="col">
+        <p>V příloze Budoucnost železnice <strong style="color:#3d454a;">Hospodářských novin</strong> vyšel <a href="https://www.ttc.cz/wp-content/uploads/2026/06/20260609_HN_Budoucnost-zeleznice_rozhovor-Martin-Bajer.jpg">rozhovor s Martinem Bajerem</a> z TTC MARCONI o budoucnosti železniční komunikace a standardu FRMCS.</p>
+        <p>Rozhovor s Tomášem Bortem z Mycroft Mind přiblížil zapojení firmy do evropského projektu XL-Connect zaměřeného na chytrou energetiku a elektromobilitu. <a href="https://xlconnect.eu/tomas-bort-mycroft-mind/">Rozhovor na webu XL-Connect</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="foot">
+    <div class="brand">TĚČKO Extra</div>
+    Newsletter Skupiny TTC · 07/2026<br>
+    <a href="https://ttccz.sharepoint.com/SitePages/TTC%20v%20m%C3%A9di%C3%ADch.aspx">TTC v médiích na intranetu</a>
+  </div>
+
+</div>
 </body>
 </html>
